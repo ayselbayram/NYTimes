@@ -6,9 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/Users/Cybertek/IdeaProjects/NYTimes/src/test/resources/features",
-        glue="/Users/Cybertek/IdeaProjects/NYTimes/src/test/java/com/nytimes/step_definitions",
-        dryRun = false
+        features = "src/test/resources/features",
+        glue="com/nytimes/step_definitions",
+        dryRun = false,
+        tags="@Subscription",
+        plugin={"html:target/default-cucumber-reports",
+        "json:target/cucumber.json",
+        "rerun:target/rerun.txt"
+}
 )
 
 
