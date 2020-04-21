@@ -36,8 +36,38 @@
             <version>4.7.4</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.0</version>
+        </dependency>
     </dependencies>
+    <profiles>
+    <profile>
+        <id>OneRunner</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M1</version>
+                    <configuration>
+                        <parallel>methods</parallel>
+                        <forkMode>perthread</forkMode>
+                        <threadCount>4</threadCount>
+                        <includes>
+                            <!-- *Runner means, it will include runner classes name ends with runner.-->
+                            <include>**/OneRunner.java</include>
+                        </includes>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+    </profiles>
+
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -46,8 +76,8 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/*CukesRunner.java</include>
-                        <include>**/*FailedTestRunner.java</include>
+                         <include>**/*CukesRunner.java</include>
+                        <include>**/*FailedRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>

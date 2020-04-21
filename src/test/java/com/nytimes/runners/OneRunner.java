@@ -1,5 +1,4 @@
 package com.nytimes.runners;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -8,22 +7,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue="com/nytimes/step_definitions",
-        dryRun = true,
-       // tags="@Subscription",
+        dryRun = false,
+        // tags="@Subscription",
         plugin={"html:target/default-cucumber-reports",
-        "json:target/cucumber.json",
-        "rerun:target/rerun.txt"
-}
+                "json:target/cucumber.json",
+                "rerun:target/rerun.txt"
+        }
 )
 
-
-
-
-
-
-
-
-
-public class CukesRunner {
-
+public class OneRunner {
 }

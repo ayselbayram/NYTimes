@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae7974d-f93c-4ecd-82ef-36aa34e53114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/pages/SubscriptionPage1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/ModuleNames_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/Modules_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/Susbcription_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ArtModule.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Modules.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Subscription.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/runners/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/runners/OneRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/Excel_StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/TryOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/NYTimes.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/~$NYTimes.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Excel.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nytimes/pages/SubscriptionPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/pages/SubscriptionPage1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/nytimes/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/HomePage_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/HomePage_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/Susbcription_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/step_definitions/Susbcription_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nytimes/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nytimes/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/nytimes/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nytimes/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nytimes/step_definitions/HomePage_StepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nytimes/step_definitions/HomePage_StepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nytimes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nytimes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +44,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1aXMQYnxgkrV3i2mskJGrVAxtb0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/nytimes/utilities" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -53,6 +56,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/nytimes/utilities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nytimes.utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,19 +76,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Scenario: Verify all the modules" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ArtModule.feature" />
-      <option name="GLUE" value="com.nytimes.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+  <component name="RunManager" selected="Cucumber java.Feature: Excel">
+    <configuration name="TryOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nytimes.step_definitions.TryOut" />
       <module name="NYTimes" />
-      <option name="NAME_FILTER" value="^Verify all the modules$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify all the modules$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify all the modules" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="com.nytimes.step_definitions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,33 +90,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify that not be able to purchase subscription" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Excel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Subscription.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="NYTimes" />
-      <option name="NAME_FILTER" value="^Verify that not be able to purchase subscription$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify that not be able to purchase subscription$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that not be able to purchase subscription" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verifying homepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Excel.feature" />
       <option name="GLUE" value="com.nytimes.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="NYTimes" />
-      <option name="NAME_FILTER" value="^Verifying homepage$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verifying homepage$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verifying homepage" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Excel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -139,12 +123,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NYTimes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nytimes.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nytimes.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.nytimes.runners.FailedRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NYTimes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nytimes.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nytimes.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.nytimes.runners.OneRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Excel" />
+        <item itemvalue="Application.TryOut" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber java.Scenario: Verify that not be able to purchase subscription" />
-        <item itemvalue="Cucumber java.Scenario: Verify all the modules" />
-        <item itemvalue="Cucumber java.Scenario: Verifying homepage" />
+        <item itemvalue="JUnit.OneRunner" />
+        <item itemvalue="JUnit.FailedRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +174,14 @@
       <option name="presentableId" value="Default" />
       <updated>1586877469285</updated>
     </task>
+    <task id="LOCAL-00001" summary="04/15/20">
+      <created>1586978096072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586978096072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,10 +189,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="04/15/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/15/20" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nytimes/runners/FailedRunner.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nytimes/runners/CukesRunner.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -25,7 +25,7 @@ public class Susbcription_StepDef {
 
     @Then("user clicks on Subscribe Now button")
     public void user_clicks_on_Subscribe_Now_button() {
-        //subscriptionPage1.subscribeNow1.click();
+        subscriptionPage1.subscribeNow1.click();
 
     }
 

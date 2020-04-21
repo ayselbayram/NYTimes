@@ -9,11 +9,14 @@ public class SubscriptionPage1 {
 
     @FindBy(linkText="Subscribe Now")
     public WebElement subscribeNow1;
+    @FindBy(id="email")
+    public WebElement email;
 
     public SubscriptionPage1(){
         PageFactory.initElements(Driver.get(),this);
 
     }
+
 
 
 
